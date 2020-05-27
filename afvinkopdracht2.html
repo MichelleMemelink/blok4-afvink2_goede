@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>DNA omzetten naar eiwit</title>
+    <meta charset="UTF-8" name="Michelle Memelink" content="HTML course 4 afvinkopdracht 2 DNA omzetten naar eiwit">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename= 'afvink2.css')}}">
+</head>
+<body>
+<form method="get">
+    <p>DNA sequentie: <label for="sequentie">
+        <input type="text" name="sequentie">
+    </label> <input type="submit"></p>
+    <hr>
+    <p>Eiwit sequentie: {{seq_eiwit}}</p>
+</form>
+</body>
+</html>
